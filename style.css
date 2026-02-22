@@ -1,0 +1,132 @@
+body{
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  background:#0a0a0a;
+  color:white;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  padding:20px 50px;
+  background:#111;
+}
+
+nav span{
+  color:#ff004c;
+}
+
+nav ul{
+  display:flex;
+  gap:30px;
+  list-style:none;
+}
+
+nav li{
+  cursor:pointer;
+}
+
+nav li:hover{
+  color:#00f0ff;
+}
+
+.page{
+  display:none;
+  padding:100px 50px;
+  min-height:100vh;
+}
+
+.active{
+  display:block;
+}
+
+.hero{
+  text-align:center;
+}
+
+.glow{
+  font-family:'Orbitron',sans-serif;
+  background:linear-gradient(90deg,#ff004c,#00f0ff);
+  -webkit-background-clip:text;
+  color:transparent;
+}
+
+button{
+  padding:12px 30px;
+  border:none;
+  border-radius:30px;
+  background:linear-gradient(90deg,#ff004c,#00f0ff);
+  color:white;
+  cursor:pointer;
+}
+
+.assistant-container{
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  gap:40px;
+  flex-wrap:wrap;
+}
+
+.avatar{
+  font-size:5rem;
+}
+
+.chat-box{
+  width:550px;
+  max-width:95%;
+  background:#111;
+  padding:20px;
+  border-radius:20px;
+  box-shadow:0 0 25px rgba(0,240,255,0.5);
+  display:flex;
+  flex-direction:column;
+}
+
+#chat{
+  height:350px;
+  overflow-y:auto;
+  margin-bottom:15px;
+}
+
+.message{
+  margin:10px 0;
+  padding:10px 15px;
+  border-radius:15px;
+  max-width:80%;
+}
+
+.user{
+  background:#00f0ff;
+  color:black;
+  margin-left:auto;
+}
+
+.bot{
+  background:#ff004c;
+}
+
+.input-area{
+  display:flex;
+  gap:10px;
+}
+
+input{
+  flex:1;
+  padding:12px;
+  border:none;
+  border-radius:30px;
+  outline:none;
+}
+
+.cards{
+  display:flex;
+  gap:30px;
+  margin-top:40px;
+}
+
+.card{
+  padding:30px;
+  background:#111;
+  border-radius:15px;
+}
